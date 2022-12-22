@@ -1,0 +1,32 @@
+.diet-product-first {
+  width: 433px;
+  height: auto;
+  position: relative;
+  .vegan-salad {
+    width: 292px;
+    height: auto;
+    display: block;
+  }
+  .chicken-fillet-with-mushrooms {
+    width: 186px;
+    height: 273px;
+    display: block;
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .diet-product-first {
+    .vegan-salad {
+      width: 240px;
+      height: 313px;
+    }
+    .chicken-fillet-with-mushrooms {
+      width: 114px;
+      height: 223px;
+    }
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .diet-product-first {
+    display: none;
+  }
+}

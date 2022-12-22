@@ -1,0 +1,39 @@
+@import "../../../../../variables";
+.diets-summary-text {
+  padding: 23px 0px;
+  margin: auto;
+  text-align: center;
+  p {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    width: 539px;
+    height: auto;
+    line-height: 18px;
+    text-align: center;
+    margin: auto;
+    padding-right: 66px;
+    color: #adaeaf;
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .diets-summary-text {
+    padding: 7px;
+    p {
+      width: fit-content;
+      padding: 0px 10px;
+    }
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .diets-summary-text {
+    padding: 0;
+    padding-bottom: 10px;
+    p {
+      padding: 10px 20px;
+    width: 350px;
+
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../../../variables";
+.navbar-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .cart {
+    .bag {
+      width: 27px;
+      height: auto;
+      cursor: pointer;
+    }
+  }
+  .signin-button {
+    .sign-in {
+      padding: 10px 20px;
+      font-family: $main-font;
+      background: #111112;
+      border-radius: 16px;
+      color: #fdfbfa;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .navbar-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .cart {
+      .bag {
+        width: 27px;
+        height: auto;
+      }
+    }
+    .signin-button {
+      .sign-in {
+        padding: 10px 20px;
+        font-family: $main-font;
+        background: #111112;
+        border-radius: 16px;
+        color: #fdfbfa;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

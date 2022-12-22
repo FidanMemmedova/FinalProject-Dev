@@ -1,0 +1,15 @@
+.recommendation_summary {
+  width: 432px;
+  height: auto;
+  margin: auto;
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .recommendation_summary {
+    width: 288px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .recommendation_summary {
+    width: 100%;
+  }
+}

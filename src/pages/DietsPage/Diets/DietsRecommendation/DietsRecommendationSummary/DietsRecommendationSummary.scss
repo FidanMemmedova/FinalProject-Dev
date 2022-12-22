@@ -1,0 +1,46 @@
+.diets-recommendation-summary {
+  width: 413px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  left: 380px;
+  top: 232px;
+  h5 {
+    font-size: 30px;
+  }
+  p {
+    font-family: "Open Sans";
+    font-size: 11px;
+    width: 320px;
+    margin: auto;
+    margin-top: 17px;
+    line-height: 15px;
+    padding-bottom: 20px;
+    font-weight: 500;
+  }
+  button {
+    margin-top: 17px;
+    width: 97px;
+    height: 34px;
+    background: #111112;
+    border: 1px solid #111112;
+    border-radius: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #fdfbfa;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .diets-recommendation-summary {
+    position: relative;
+    width: 600px;
+    left: 0;
+    top: 0;
+  }
+}

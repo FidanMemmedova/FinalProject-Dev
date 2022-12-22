@@ -1,0 +1,23 @@
+.feedback {
+  width: 50%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15px;
+  padding-top: 20px;
+  gap: 5px;
+  padding-right: 20px;
+  margin-right: 35px;
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .feedback {
+    padding-left: 0px;
+    column-gap: 16px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .feedback {
+    padding-top: 0px;
+    width: 100%;
+  }
+}

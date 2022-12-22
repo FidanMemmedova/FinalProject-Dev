@@ -1,0 +1,46 @@
+.recommendation_summary_headling {
+  padding: 20px 0px;
+  margin: 20px auto;
+  h4 {
+    font-weight: 700;
+    font-size: 31px;
+    width: 435px;
+    height: auto;
+    margin: auto;
+    line-height: 51px;
+    .arrow-right {
+      margin: 0px 10px;
+      width: 100px;
+      height: 36px;
+    }
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .recommendation_summary_headling {
+    h4 {
+      font-size: 21px;
+      width: 290px;
+      line-height: 34px;
+      .arrow-right {
+        width: 67px;
+        height: 24px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .recommendation_summary_headling {
+    margin: 0px;
+    h4 {
+      font-size: 13px;
+      width: 100%;
+      text-align: center;
+      line-height: 17px;
+      .arrow-right {
+        width: 33px;
+        height: 12px;
+        margin: 0px 5px;
+      }
+    }
+  }
+}

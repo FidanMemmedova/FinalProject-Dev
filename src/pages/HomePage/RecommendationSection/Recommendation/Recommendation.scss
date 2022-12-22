@@ -1,0 +1,17 @@
+@import "../../../../variables";
+.recommendation {
+  font-family: $main-font;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .recommendation_summary {
+    gap: 20px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px){
+  .recommendation{
+    display: block;
+  }
+}

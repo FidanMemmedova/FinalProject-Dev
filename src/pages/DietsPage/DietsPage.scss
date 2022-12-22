@@ -1,0 +1,15 @@
+.container {
+  width: 1440px;
+  height: auto;
+  margin: auto;
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .container {
+    width: 1050px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .container {
+    width: 375px;
+  }
+}

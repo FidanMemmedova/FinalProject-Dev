@@ -1,0 +1,14 @@
+@import "../../../../variables";
+.catering-diets-summary {
+  padding-top: 38px;
+  width: 745px;
+  height: auto;
+  font-family:$secondary-font;
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  .catering-diets-summary {
+    width: 350px;
+    height: auto;
+    padding-top: 0;
+  }
+}
