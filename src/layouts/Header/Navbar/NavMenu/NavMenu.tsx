@@ -14,11 +14,11 @@ export const NavMenu: React.FC = () => {
   return (
     <nav>
       <ul>
-        {liList.map((navItem) => {
+        {liList.map((navItem,index) => {
           return navItem === "Diets" ? (
-            <Link to="/diets">{navItem}</Link>
+            <Link to="/diets" key={index}>{navItem}</Link>
           ) : (
-            <li>
+            <li key={index}>
               <a href="#">{navItem}</a>
             </li>
           );
